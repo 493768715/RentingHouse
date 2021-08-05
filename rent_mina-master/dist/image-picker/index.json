@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "l-grid-item": "../grid-item/index",
+    "l-grid": "../grid/index"
+  }
+}

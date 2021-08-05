@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "dropdownmenu": "../../components/dropdownmenu/dropdownmenu"
+  },
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black"
+}

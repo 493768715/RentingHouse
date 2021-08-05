@@ -1,0 +1,14 @@
+checkbox .wx-checkbox-input{
+  border-radius: 3rpx;
+  height: 200rpx;
+  width: 200rpx;
+  margin-top: -4rpx;
+  /* 自定义样式.... */
+  }
+  /* checkbox选中时样式 */
+  checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{
+    width: 100rpx;
+    height: 100rpx;
+    color: red;
+  /* 自定义样式.... */
+  }

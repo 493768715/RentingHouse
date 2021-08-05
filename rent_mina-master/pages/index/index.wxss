@@ -1,0 +1,126 @@
+/* pages/nav/pages/tabs/index.wxss */
+.icon-list{
+  display: flex;
+  margin: 20rpx;
+  padding: 10rpx 20rpx;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icon-list image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  text-align: center;
+  align-self: center;
+  box-sizing: border-box;
+}
+.icon-item{
+  display: flex;
+  flex-direction: column;
+}
+.recent-update {
+  font-size: 30rpx;
+  font-weight: bold;
+  padding: 10rpx 25rpx;
+}
+/* pages/test/test.wxss */
+.imgurl{
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  -moz-background-size:100% 100%;
+}
+.content {
+  margin-top: 10rpx;
+  color: #666;
+  font-size: 26rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+}
+.address-index{
+  color: #ABAFBA;
+  font-size: 20rpx;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+  overflow:hidden;
+}
+.feed-list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 310rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  margin: 20rpx 0;
+}
+.feed-left {
+  width: 35%;
+  height: 310rpx;
+}
+.feed-left image{
+  width: 100%;
+}
+.feed-right {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  height: 310rpx;
+  margin-left: 10rpx;
+}
+.r-top {
+  width: 100%;
+}
+.r-top image{
+  width: 100%;
+  height: 150rpx;
+}
+.r-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%
+}
+.r-bottom image {
+  height: 150rpx;
+  width: 50%;
+  margin-top:5rpx;
+}
+.r-bottom image:last-child {
+    margin-left: 10rpx;
+}
+/*公寓推荐*/
+.scroll_box{
+  width: 100%;
+  overflow: hidden;
+  padding: 0 20rpx;
+  background: #fff;
+  white-space: nowrap;
+}
+.sub-model{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20rpx 25rpx;
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+.scroll_box{
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+  white-space: nowrap;
+}
+.item_list{
+  width: 250rpx;
+  height: 180rpx;
+  margin-right: 23rpx;
+  display: inline-block;
+}
+.item_list image{
+  width: 100%;
+  height: 100%;
+  border-radius: 15rpx;
+}

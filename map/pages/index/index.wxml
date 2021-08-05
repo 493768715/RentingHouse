@@ -1,0 +1,4 @@
+<view>
+  <button bindtap="moveToLocation">点击显示地址</button>
+  <view>{{address}}</view>
+</view>
